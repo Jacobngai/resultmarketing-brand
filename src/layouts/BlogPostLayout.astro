@@ -1,0 +1,165 @@
+---
+interface Props {
+  title: string;
+  date: string;
+  category: string;
+  source: string;
+  sourceUrl?: string;
+  excerpt: string;
+  malaysiaInsight?: string;
+}
+
+const { title, date, category, source, sourceUrl, excerpt, malaysiaInsight } = Astro.props.frontmatter || Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={excerpt} />
+  <title>{title} | Result Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-brand-gray-900 font-sans antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-brand-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-xl font-semibold tracking-tight">
+        Result Marketing
+      </a>
+      <div class="flex items-center gap-8">
+        <a href="/learn" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">Learn</a>
+        <a href="/about" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">About</a>
+        <a href="https://seo.resultmarketing.asia" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">SEO Services</a>
+        <a href="https://cal.com/zen-pdcnlc/coffee" class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors">
+          Book a Call
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="pt-20">
+    <article class="py-20">
+      <div class="max-w-3xl mx-auto px-6">
+        <!-- Header -->
+        <header class="mb-16">
+          <div class="flex items-center gap-3 mb-6">
+            <span class="text-sm font-medium text-brand-blue bg-brand-blue/10 px-3 py-1 rounded-full">
+              {category}
+            </span>
+            <span class="text-sm text-brand-gray-400">{date}</span>
+          </div>
+          <h1 class="text-4xl font-semibold mb-6 leading-tight">{title}</h1>
+          <p class="text-xl text-brand-gray-600 leading-relaxed">{excerpt}</p>
+          
+          <div class="mt-8 p-6 bg-brand-gray-50 rounded-2xl">
+            <div class="text-sm text-brand-gray-500 mb-1">Source</div>
+            <div class="font-medium">{source}</div>
+            {sourceUrl && (
+              <a href={sourceUrl} target="_blank" rel="noopener" class="text-sm text-brand-blue hover:underline mt-1 inline-block">
+                Watch original →
+              </a>
+            )}
+          </div>
+        </header>
+
+        <!-- Content -->
+        <div class="prose prose-lg max-w-none
+          prose-headings:font-semibold prose-headings:text-brand-black
+          prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
+          prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+          prose-p:text-brand-gray-700 prose-p:leading-relaxed
+          prose-a:text-brand-blue prose-a:no-underline hover:prose-a:underline
+          prose-strong:text-brand-black prose-strong:font-medium
+          prose-blockquote:border-l-brand-blue prose-blockquote:bg-brand-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic
+          prose-ul:text-brand-gray-700 prose-ol:text-brand-gray-700
+        ">
+          <slot />
+        </div>
+
+        <!-- Malaysia SME Perspective -->
+        {malaysiaInsight && (
+          <div class="mt-16 p-8 bg-gradient-to-br from-brand-blue/5 to-brand-blue/10 rounded-2xl border border-brand-blue/20">
+            <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">
+              🇲🇾 How This Applies to Malaysian SMEs
+            </h3>
+            <div class="text-brand-gray-700 leading-relaxed whitespace-pre-line">
+              {malaysiaInsight}
+            </div>
+          </div>
+        )}
+
+        <!-- Navigation -->
+        <div class="mt-16 pt-8 border-t border-brand-gray-100">
+          <a href="/learn" class="text-sm text-brand-gray-500 hover:text-brand-black transition-colors">
+            ← Back to all posts
+          </a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-brand-gray-100 mt-32">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <!-- Newsletter -->
+        <div class="md:col-span-2">
+          <h3 class="text-lg font-semibold mb-4">Get new posts by email</h3>
+          <p class="text-brand-gray-600 text-sm leading-relaxed mb-4">
+            Join other Malaysian business owners. No spam, no courses to sell.
+          </p>
+          <form 
+            action="https://buttondown.com/api/emails/embed-subscribe/jacobng" 
+            method="post" 
+            target="popupwindow" 
+            class="flex gap-2"
+          >
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="your@email.com" 
+              required
+              class="flex-1 px-4 py-2 text-sm rounded-full border border-brand-gray-300 focus:outline-none focus:border-brand-black"
+            />
+            <button 
+              type="submit" 
+              class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+        <div>
+          <h4 class="text-sm font-medium mb-4">Links</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="/learn" class="hover:text-brand-black transition-colors">Learn</a></li>
+            <li><a href="/about" class="hover:text-brand-black transition-colors">About</a></li>
+            <li><a href="https://seo.resultmarketing.asia" class="hover:text-brand-black transition-colors">SEO Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-medium mb-4">Connect</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="https://cal.com/zen-pdcnlc/coffee" class="hover:text-brand-black transition-colors">Book a Call</a></li>
+            <li><a href="mailto:jacob@resultmarketing.asia" class="hover:text-brand-black transition-colors">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-brand-gray-100 mt-12 pt-8 text-center text-sm text-brand-gray-500">
+        © 2026 Jacob Ng. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+<style>
+  .prose blockquote p {
+    margin: 0;
+  }
+</style>

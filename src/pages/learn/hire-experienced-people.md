@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPostLayout.astro
 title: "The Biggest Hiring Mistake Most Entrepreneurs Make"
 date: "2026-02-21"
 category: "Business Growth"
