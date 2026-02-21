@@ -8,107 +8,180 @@ const latestPosts = posts
   .slice(0, 3);
 ---
 
-<BaseLayout title="Business Insights for Malaysian SMEs">
-  <!-- Hero Section -->
-  <section class="min-h-[80vh] flex items-center">
+<BaseLayout title="Jacob Ng - Business Learning for Malaysian SMEs">
+  <!-- Hero Section - Personal -->
+  <section class="min-h-[70vh] flex items-center">
     <div class="max-w-6xl mx-auto px-6">
       <div class="max-w-3xl">
+        <p class="text-brand-blue font-medium mb-4">Hey, I'm Jacob 👋</p>
         <h1 class="text-display font-semibold text-brand-black mb-8">
-          Learn from the<br/>
-          <span class="text-brand-gray-400">world's best.</span>
+          I study business.<br/>
+          <span class="text-brand-gray-400">Then share what I learn.</span>
         </h1>
-        <p class="text-xl text-brand-gray-600 leading-relaxed mb-12 max-w-xl">
-          We distill insights from top business minds and share how Malaysian SMEs can apply them. AI, automation, growth — no fluff.
+        <p class="text-xl text-brand-gray-600 leading-relaxed mb-8 max-w-xl">
+          Every week I break down insights from Jay Abraham, Alex Hormozi, and other business minds — then add my take on how it applies to Malaysian SMEs.
         </p>
-        <div class="flex gap-4">
-          <a href="/learn" class="px-8 py-4 bg-brand-black text-white rounded-full hover:bg-brand-gray-800 transition-colors">
-            Start Learning
-          </a>
-          <a href="https://cal.com/zen-pdcnlc/coffee" class="px-8 py-4 border border-brand-gray-300 rounded-full hover:border-brand-black transition-colors">
-            Talk to Us
-          </a>
+        <p class="text-lg text-brand-gray-600 leading-relaxed mb-12 max-w-xl">
+          No courses to sell. No coaching programs. Just sharing the lessons that have helped me build my own businesses.
+        </p>
+        <a href="/learn" class="inline-block px-8 py-4 bg-brand-black text-white rounded-full hover:bg-brand-gray-800 transition-colors">
+          Start Reading
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me - E-E-A-T -->
+  <section class="py-24 bg-brand-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="text-heading font-semibold mb-6">A bit about me</h2>
+          <div class="space-y-4 text-brand-gray-700 leading-relaxed">
+            <p>
+              I'm an <strong>Information Systems Engineer</strong> turned entrepreneur. Started building websites in uni, got obsessed with how businesses actually grow, and never stopped learning.
+            </p>
+            <p>
+              Today I run an SEO agency (<a href="https://seo.resultmarketing.asia" class="text-brand-blue hover:underline">Result Marketing</a>) and spend way too much time consuming business content — podcasts, books, masterclasses.
+            </p>
+            <p>
+              This site is where I process what I learn. Writing helps me think, and maybe it helps you too.
+            </p>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-white rounded-full text-sm text-brand-gray-600 border border-brand-gray-200">
+              🎓 Information Systems Engineer
+            </span>
+            <span class="px-4 py-2 bg-white rounded-full text-sm text-brand-gray-600 border border-brand-gray-200">
+              🚀 Entrepreneur
+            </span>
+            <span class="px-4 py-2 bg-white rounded-full text-sm text-brand-gray-600 border border-brand-gray-200">
+              📚 Lifelong Learner
+            </span>
+          </div>
+        </div>
+        <div class="p-8 bg-white rounded-2xl border border-brand-gray-100">
+          <h3 class="font-semibold mb-4">What I'm currently studying</h3>
+          <ul class="space-y-3 text-brand-gray-700">
+            <li class="flex gap-3">
+              <span class="text-brand-blue">→</span>
+              <span>Jay Abraham's Strategy of Preeminence</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-brand-blue">→</span>
+              <span>AI automation for small businesses</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-brand-blue">→</span>
+              <span>How to build sales systems that don't require me</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- What We Cover -->
-  <section class="py-32 bg-brand-gray-50">
+  <!-- What I Write About -->
+  <section class="py-24">
     <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-heading font-semibold mb-16">What we cover</h2>
-      <div class="grid grid-cols-3 gap-8">
-        <div class="p-8 bg-white rounded-2xl">
-          <div class="w-12 h-12 bg-brand-gray-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
+      <h2 class="text-heading font-semibold mb-4">What I write about</h2>
+      <p class="text-brand-gray-600 text-lg mb-12 max-w-2xl">
+        Lessons from studying the best business minds, filtered through my experience running businesses in Malaysia.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 bg-brand-gray-50 rounded-2xl">
+          <div class="text-3xl mb-4">🤖</div>
           <h3 class="text-lg font-medium mb-3">AI & Automation</h3>
           <p class="text-brand-gray-600 text-sm leading-relaxed">
-            Practical AI applications for Malaysian businesses. ChatGPT, Claude, automation workflows — what actually works.
+            What actually works. What's hype. How Malaysian SMEs can use AI without the enterprise budget.
           </p>
         </div>
-        <div class="p-8 bg-white rounded-2xl">
-          <div class="w-12 h-12 bg-brand-gray-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-            </svg>
-          </div>
-          <h3 class="text-lg font-medium mb-3">Business Growth</h3>
+        <div class="p-8 bg-brand-gray-50 rounded-2xl">
+          <div class="text-3xl mb-4">📈</div>
+          <h3 class="text-lg font-medium mb-3">Growth Strategy</h3>
           <p class="text-brand-gray-600 text-sm leading-relaxed">
-            Sales, marketing, and scaling strategies from proven entrepreneurs. Adapted for the Malaysian market.
+            Sales, marketing, and scaling lessons from people who've built real businesses. Not theory.
           </p>
         </div>
-        <div class="p-8 bg-white rounded-2xl">
-          <div class="w-12 h-12 bg-brand-gray-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-            </svg>
-          </div>
-          <h3 class="text-lg font-medium mb-3">Business Learning</h3>
+        <div class="p-8 bg-brand-gray-50 rounded-2xl">
+          <div class="text-3xl mb-4">🇲🇾</div>
+          <h3 class="text-lg font-medium mb-3">Malaysian Context</h3>
           <p class="text-brand-gray-600 text-sm leading-relaxed">
-            Insights from Jay Abraham, Alex Hormozi, and other masters — translated into actionable advice for SMEs.
+            Global lessons adapted for local reality. What works for Silicon Valley doesn't always work here.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Latest Learning -->
-  <section class="py-32">
+  <!-- Newsletter -->
+  <section class="py-24 bg-brand-black text-white">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="flex items-end justify-between mb-16">
-        <h2 class="text-heading font-semibold">Latest learning</h2>
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="text-heading font-semibold mb-6">Get new posts by email</h2>
+        <p class="text-brand-gray-400 text-lg mb-8">
+          Join other Malaysian business owners. I send new learnings when I publish — usually once a week. No spam, no courses to sell.
+        </p>
+        <form 
+          action="https://buttondown.email/api/emails/embed-subscribe/jacobng" 
+          method="post" 
+          target="popupwindow" 
+          class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"
+        >
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="your@email.com" 
+            required
+            class="flex-1 px-6 py-4 rounded-full bg-white/10 border border-white/20 text-white placeholder:text-brand-gray-500 focus:outline-none focus:border-white/40"
+          />
+          <button 
+            type="submit" 
+            class="px-8 py-4 bg-white text-brand-black rounded-full hover:bg-brand-gray-100 transition-colors font-medium"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="text-sm text-brand-gray-500 mt-4">
+          No spam. Unsubscribe anytime.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Posts -->
+  <section class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <h2 class="text-heading font-semibold">Recent posts</h2>
+          <p class="text-brand-gray-600 mt-2">What I've been learning lately</p>
+        </div>
         <a href="/learn" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">
           View all →
         </a>
       </div>
-      <div class="grid grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {latestPosts.map((post) => (
-          <a href={post.url} class="group">
-            <div class="aspect-video bg-brand-gray-100 rounded-2xl mb-6 overflow-hidden">
-              {post.frontmatter.image && (
-                <img src={post.frontmatter.image} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              )}
-            </div>
+          <a href={post.url} class="group p-6 bg-brand-gray-50 rounded-2xl hover:bg-brand-gray-100 transition-colors">
             <div class="text-sm text-brand-gray-500 mb-2">{post.frontmatter.category}</div>
-            <h3 class="text-lg font-medium mb-2 group-hover:text-brand-blue transition-colors">{post.frontmatter.title}</h3>
-            <p class="text-sm text-brand-gray-600 line-clamp-2">{post.frontmatter.excerpt}</p>
+            <h3 class="text-lg font-medium mb-3 group-hover:text-brand-blue transition-colors">{post.frontmatter.title}</h3>
+            <p class="text-sm text-brand-gray-600 line-clamp-3">{post.frontmatter.excerpt}</p>
+            <div class="mt-4 text-sm text-brand-gray-400">{post.frontmatter.date}</div>
           </a>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="py-32 bg-brand-black text-white">
+  <!-- Simple CTA -->
+  <section class="py-16 border-t border-brand-gray-100">
     <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-heading font-semibold mb-6">Ready to grow your business?</h2>
-      <p class="text-brand-gray-400 text-lg mb-12 max-w-xl mx-auto">
-        Let's talk about how AI and automation can transform your Malaysian SME.
+      <p class="text-brand-gray-600 mb-4">
+        Want to chat about business, AI, or SEO?
       </p>
-      <a href="https://cal.com/zen-pdcnlc/coffee" class="inline-block px-8 py-4 bg-white text-brand-black rounded-full hover:bg-brand-gray-100 transition-colors">
-        Book a Free Call
+      <a href="https://cal.com/zen-pdcnlc/coffee" class="inline-block text-brand-blue hover:underline">
+        Book a virtual coffee →
       </a>
     </div>
   </section>

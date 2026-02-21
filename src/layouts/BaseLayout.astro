@@ -44,13 +44,33 @@ const { title, description = "Business insights for Malaysian SMEs. AI, automati
   <!-- Footer -->
   <footer class="border-t border-brand-gray-100 mt-32">
     <div class="max-w-6xl mx-auto px-6 py-16">
-      <div class="grid grid-cols-4 gap-12">
-        <div class="col-span-2">
-          <h3 class="text-lg font-semibold mb-4">Result Marketing</h3>
-          <p class="text-brand-gray-600 text-sm leading-relaxed max-w-md">
-            Business insights and automation strategies for Malaysian SMEs. 
-            We share what we learn from the world's best business minds.
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <!-- Newsletter -->
+        <div class="md:col-span-2">
+          <h3 class="text-lg font-semibold mb-4">Get new posts by email</h3>
+          <p class="text-brand-gray-600 text-sm leading-relaxed mb-4">
+            Join other Malaysian business owners. No spam, no courses to sell.
           </p>
+          <form 
+            action="https://buttondown.email/api/emails/embed-subscribe/jacobng" 
+            method="post" 
+            target="popupwindow" 
+            class="flex gap-2"
+          >
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="your@email.com" 
+              required
+              class="flex-1 px-4 py-2 text-sm rounded-full border border-brand-gray-300 focus:outline-none focus:border-brand-black"
+            />
+            <button 
+              type="submit" 
+              class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
         </div>
         <div>
           <h4 class="text-sm font-medium mb-4">Links</h4>
@@ -64,12 +84,12 @@ const { title, description = "Business insights for Malaysian SMEs. AI, automati
           <h4 class="text-sm font-medium mb-4">Connect</h4>
           <ul class="space-y-2 text-sm text-brand-gray-600">
             <li><a href="https://cal.com/zen-pdcnlc/coffee" class="hover:text-brand-black transition-colors">Book a Call</a></li>
-            <li><a href="mailto:jacob@resultmarketing.asia" class="hover:text-brand-black transition-colors">Email Us</a></li>
+            <li><a href="mailto:jacob@resultmarketing.asia" class="hover:text-brand-black transition-colors">Email</a></li>
           </ul>
         </div>
       </div>
       <div class="border-t border-brand-gray-100 mt-12 pt-8 text-center text-sm text-brand-gray-500">
-        © 2026 Result Marketing. All rights reserved.
+        © 2026 Jacob Ng. All rights reserved.
       </div>
     </div>
   </footer>

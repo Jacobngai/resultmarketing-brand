@@ -2,43 +2,113 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About" description="Who we are and why we do this.">
+<BaseLayout title="About Jacob Ng" description="Information Systems Engineer, entrepreneur, and lifelong learner sharing business insights for Malaysian SMEs.">
   <section class="py-20">
     <div class="max-w-3xl mx-auto px-6">
-      <h1 class="text-display font-semibold mb-12">About</h1>
+      <h1 class="text-display font-semibold mb-8">About me</h1>
+      <p class="text-xl text-brand-gray-600 mb-16">
+        Hey, I'm Jacob. This is where I share what I'm learning about business.
+      </p>
       
-      <div class="prose prose-lg max-w-none text-brand-gray-700">
-        <p class="text-xl leading-relaxed mb-8">
-          We're <strong>Result Marketing</strong> — a Malaysian company obsessed with helping SMEs grow through smart marketing and automation.
-        </p>
+      <div class="space-y-12 text-brand-gray-700 leading-relaxed">
+        
+        <!-- Background -->
+        <div>
+          <h2 class="text-2xl font-semibold text-brand-black mb-4">Background</h2>
+          <p class="mb-4">
+            I'm an <strong>Information Systems Engineer</strong> by training. Graduated, worked in tech, but always felt pulled toward building businesses rather than working in them.
+          </p>
+          <p class="mb-4">
+            Today I run <a href="https://seo.resultmarketing.asia" class="text-brand-blue hover:underline">Result Marketing</a>, an SEO agency helping Malaysian businesses get found online. I also help clients automate their workflows — from CRM systems to AI-powered content.
+          </p>
+          <p>
+            But this site isn't about my agency. It's about the learning that happens along the way.
+          </p>
+        </div>
 
-        <h2 class="text-2xl font-semibold text-brand-black mt-12 mb-4">Why this site exists</h2>
-        <p>
-          We spend a lot of time learning from the world's best business minds — Jay Abraham, Alex Hormozi, Sam Parr, and others who've built and scaled real businesses.
-        </p>
-        <p>
-          Most of their advice is aimed at the US market. We take those insights and translate them for Malaysian SMEs. Different culture, different challenges, same principles.
-        </p>
+        <!-- Credentials -->
+        <div class="p-8 bg-brand-gray-50 rounded-2xl">
+          <h3 class="font-semibold text-brand-black mb-4">Quick facts</h3>
+          <ul class="space-y-3">
+            <li class="flex gap-3">
+              <span class="text-brand-blue">🎓</span>
+              <span><strong>Information Systems Engineer</strong> — Technical foundation in how systems work</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-brand-blue">🚀</span>
+              <span><strong>Entrepreneur</strong> — Building and running businesses in Malaysia since 2019</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-brand-blue">📚</span>
+              <span><strong>Lifelong Learner</strong> — 200+ business podcasts, books, and masterclasses consumed (and counting)</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-brand-blue">🇲🇾</span>
+              <span><strong>Based in Malaysia</strong> — Understanding local market challenges firsthand</span>
+            </li>
+          </ul>
+        </div>
 
-        <h2 class="text-2xl font-semibold text-brand-black mt-12 mb-4">What we believe</h2>
-        <ul class="space-y-3">
-          <li><strong>Evidence over trends.</strong> We value knowledge that's stood the test of time. Large data sets. Peer-reviewed studies. Things that actually work.</li>
-          <li><strong>First principles thinking.</strong> We solve problems based on fundamental truths, not just copying what others do.</li>
-          <li><strong>Hypothesis → Test → Result → Iterate.</strong> The scientific method applied to business.</li>
-        </ul>
+        <!-- Why this site -->
+        <div>
+          <h2 class="text-2xl font-semibold text-brand-black mb-4">Why I write</h2>
+          <p class="mb-4">
+            I consume a lot of business content. Jay Abraham, Alex Hormozi, Sam Parr, Dharmesh Shah — people who've built real businesses and share how they did it.
+          </p>
+          <p class="mb-4">
+            Most of their advice targets the US market. Different economy, different culture, different challenges. I take what resonates and think about how it applies to Malaysian SMEs.
+          </p>
+          <p>
+            Writing helps me process and remember. If it helps you too, that's a bonus.
+          </p>
+        </div>
 
-        <h2 class="text-2xl font-semibold text-brand-black mt-12 mb-4">Our services</h2>
-        <p>
-          We run an SEO agency at <a href="https://seo.resultmarketing.asia" class="text-brand-blue hover:underline">seo.resultmarketing.asia</a>. But this site isn't about selling. It's about sharing what we learn.
-        </p>
-        <p>
-          If you want to chat about how these ideas apply to your business, <a href="https://cal.com/zen-pdcnlc/coffee" class="text-brand-blue hover:underline">book a free call</a>.
-        </p>
+        <!-- Philosophy -->
+        <div>
+          <h2 class="text-2xl font-semibold text-brand-black mb-4">How I think</h2>
+          <ul class="space-y-4">
+            <li>
+              <strong class="text-brand-black">Evidence over trends.</strong>
+              <span class="text-brand-gray-600"> I value knowledge that's stood the test of time. Data beats opinions. Peer-reviewed studies beat viral threads.</span>
+            </li>
+            <li>
+              <strong class="text-brand-black">First principles.</strong>
+              <span class="text-brand-gray-600"> I try to understand WHY something works, not just copy what others do. If you understand the principle, you can adapt to any situation.</span>
+            </li>
+            <li>
+              <strong class="text-brand-black">Hypothesis → Test → Result → Iterate.</strong>
+              <span class="text-brand-gray-600"> The scientific method applied to business. Most "strategy" is really just experiments that haven't been tested yet.</span>
+            </li>
+          </ul>
+        </div>
 
-        <h2 class="text-2xl font-semibold text-brand-black mt-12 mb-4">Who's behind this</h2>
-        <p>
-          Jacob Ng runs Result Marketing from Malaysia. He helps clients with SEO and automation, and spends way too much time watching business podcasts.
-        </p>
+        <!-- Current focus -->
+        <div>
+          <h2 class="text-2xl font-semibold text-brand-black mb-4">What I'm working on</h2>
+          <p class="mb-4">Right now I'm deep into:</p>
+          <ul class="space-y-2">
+            <li>→ Building automated marketing systems using AI</li>
+            <li>→ Understanding how AI changes SEO (and how to adapt)</li>
+            <li>→ Scaling without losing quality</li>
+          </ul>
+        </div>
+
+        <!-- Connect -->
+        <div class="border-t border-brand-gray-200 pt-12">
+          <h2 class="text-2xl font-semibold text-brand-black mb-4">Want to connect?</h2>
+          <p class="mb-6">
+            I'm always happy to chat with fellow business owners. No pitch, just conversation.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="https://cal.com/zen-pdcnlc/coffee" class="px-6 py-3 bg-brand-black text-white rounded-full hover:bg-brand-gray-800 transition-colors">
+              Book a virtual coffee
+            </a>
+            <a href="mailto:jacob@resultmarketing.asia" class="px-6 py-3 border border-brand-gray-300 rounded-full hover:border-brand-black transition-colors">
+              Email me
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
