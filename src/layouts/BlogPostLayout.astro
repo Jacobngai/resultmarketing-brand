@@ -68,6 +68,20 @@ const { title, date, category, source, sourceUrl, excerpt, malaysiaInsight, auth
             </div>
           </div>
           
+          <!-- Video Embed (if YouTube) -->
+          {sourceUrl && sourceUrl.includes('youtube.com') && (
+            <div class="mt-8 aspect-video rounded-lg overflow-hidden bg-brand-gray-100">
+              <iframe 
+                src={`https://www.youtube.com/embed/${sourceUrl.split('v=')[1]?.split('&')[0]}`}
+                title={source}
+                class="w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          )}
+
           <!-- Source -->
           <div class="mt-6 p-4 bg-brand-gray-50 rounded-lg border border-brand-gray-200">
             <div class="text-xs font-medium text-brand-gray-500 uppercase tracking-wide mb-1">Source Material</div>
