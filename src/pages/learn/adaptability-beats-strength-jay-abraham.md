@@ -123,4 +123,16 @@ Stay nimble. Keep building. 🦎
 
 ---
 
+## Want AI to Recommend Your Business?
+
+At **Result Marketing**, we don't chase trends. We build AI-readable content that positions your business where AI is looking.
+
+While your competitors make TikToks that AI will never see, we're creating the content that ChatGPT, Perplexity, and Claude recommend when your customers ask questions.
+
+**That's AIEO** — AI Engine Optimization. The adaptation advantage for Malaysian businesses.
+
+[Book a free consultation →](https://cal.com/zen-pdcnlc/coffee)
+
+---
+
 *This insight combines Jay Abraham's "Become The Recommended Expert" framework with the Bezos/Barnes & Noble story — two case studies in winning through adaptation rather than strength.*
