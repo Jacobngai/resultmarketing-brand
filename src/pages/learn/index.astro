@@ -2,68 +2,104 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const allPosts = await Astro.glob('./*.md');
-const posts = allPosts.sort((a, b) => 
-  new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
-);
+const posts = allPosts
+  .filter(post => post.frontmatter.title)
+  .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime());
 
-// Group by category
-const categories = [...new Set(posts.map(p => p.frontmatter.category))];
+// Get unique categories
+const categories = [...new Set(posts.map(p => p.frontmatter.category).filter(Boolean))];
 ---
 
-<BaseLayout title="Learn" description="Business insights from the world's best minds, adapted for Malaysian SMEs.">
-  <section class="py-20">
-    <div class="max-w-6xl mx-auto px-6">
-      <!-- Header -->
-      <div class="max-w-2xl mb-20">
-        <h1 class="text-display font-semibold mb-6">Learn</h1>
-        <p class="text-xl text-brand-gray-600 leading-relaxed">
-          We watch, read, and distill insights from top business minds. Then we share how Malaysian SMEs can apply them.
-        </p>
+<BaseLayout title="Analysis" description="In-depth business analysis and insights for Malaysian SME leaders.">
+  <!-- Header -->
+  <section class="border-b border-brand-gray-200">
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+        <div>
+          <p class="text-sm font-medium text-brand-blue uppercase tracking-wider mb-2">Analysis</p>
+          <h1 class="text-3xl md:text-4xl font-bold">Latest Intelligence</h1>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-sm text-brand-gray-500">Filter:</span>
+          <a href="/learn" class="text-sm px-3 py-1 bg-brand-black text-white rounded-full">All</a>
+          {categories.map(cat => (
+            <a href={`/learn?category=${cat?.toLowerCase()}`} class="text-sm px-3 py-1 border border-brand-gray-300 text-brand-gray-600 rounded-full hover:border-brand-black hover:text-brand-black transition-colors">
+              {cat}
+            </a>
+          ))}
+        </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Category Filter -->
-      <div class="flex gap-4 mb-12 border-b border-brand-gray-100 pb-4">
-        <button class="px-4 py-2 text-sm font-medium text-brand-black border-b-2 border-brand-black -mb-[18px]">
-          All
-        </button>
-        {categories.map((cat) => (
-          <button class="px-4 py-2 text-sm text-brand-gray-500 hover:text-brand-black transition-colors">
-            {cat}
-          </button>
-        ))}
-      </div>
-
-      <!-- Posts Grid -->
-      <div class="grid grid-cols-2 gap-x-8 gap-y-16">
-        {posts.map((post) => (
-          <a href={post.url} class="group">
-            <div class="aspect-video bg-brand-gray-100 rounded-2xl mb-6 overflow-hidden">
-              {post.frontmatter.image && (
-                <img src={post.frontmatter.image} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-              )}
-            </div>
-            <div class="flex items-center gap-3 mb-3">
-              <span class="text-xs font-medium text-brand-blue bg-brand-blue/10 px-2 py-1 rounded">
-                {post.frontmatter.category}
-              </span>
-              <span class="text-sm text-brand-gray-400">{post.frontmatter.date}</span>
-            </div>
-            <h2 class="text-xl font-medium mb-3 group-hover:text-brand-blue transition-colors">
-              {post.frontmatter.title}
-            </h2>
-            <p class="text-brand-gray-600 line-clamp-2">{post.frontmatter.excerpt}</p>
-            <div class="mt-4 text-sm text-brand-gray-500">
-              Source: {post.frontmatter.source}
-            </div>
-          </a>
-        ))}
-      </div>
-
-      {posts.length === 0 && (
-        <div class="text-center py-20 text-brand-gray-500">
-          <p>No posts yet. Check back soon!</p>
+  <!-- Articles Grid -->
+  <section>
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      {posts.length === 0 ? (
+        <div class="text-center py-16">
+          <p class="text-brand-gray-500">No articles yet. Check back soon.</p>
+        </div>
+      ) : (
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {posts.map((post, index) => (
+            <article class={`group ${index === 0 ? 'md:col-span-2 lg:col-span-2' : ''}`}>
+              <a href={`/learn/${post.file.split('/').pop()?.replace('.md', '')}`}>
+                <div class={`bg-brand-gray-50 rounded-lg mb-4 flex items-center justify-center group-hover:bg-brand-gray-100 transition-colors ${index === 0 ? 'aspect-[2/1]' : 'aspect-[16/10]'}`}>
+                  <span class={index === 0 ? 'text-6xl' : 'text-4xl'}>{post.frontmatter.emoji || '📊'}</span>
+                </div>
+                <div class="flex items-center gap-2 mb-2">
+                  <span class="text-xs font-medium text-brand-blue uppercase tracking-wide">{post.frontmatter.category}</span>
+                  <span class="text-xs text-brand-gray-400">•</span>
+                  <span class="text-xs text-brand-gray-500">{post.frontmatter.date}</span>
+                </div>
+                <h2 class={`font-bold leading-snug mb-2 group-hover:text-brand-blue transition-colors ${index === 0 ? 'text-2xl' : 'text-lg'}`}>
+                  {post.frontmatter.title}
+                </h2>
+                <p class={`text-brand-gray-600 mb-3 ${index === 0 ? 'text-base' : 'text-sm line-clamp-2'}`}>
+                  {post.frontmatter.excerpt}
+                </p>
+                <div class="text-xs text-brand-gray-500">
+                  <span class="font-medium text-brand-gray-700">{post.frontmatter.author || 'Editorial Team'}</span>
+                  {post.frontmatter.readTime && (
+                    <>
+                      <span class="mx-2">•</span>
+                      <span>{post.frontmatter.readTime}</span>
+                    </>
+                  )}
+                </div>
+              </a>
+            </article>
+          ))}
         </div>
       )}
+    </div>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section class="bg-brand-gray-50 border-t border-brand-gray-200">
+    <div class="max-w-3xl mx-auto px-6 py-12 text-center">
+      <h2 class="text-2xl font-bold mb-3">Never miss an insight.</h2>
+      <p class="text-brand-gray-600 mb-6">Get our weekly intelligence brief delivered to your inbox.</p>
+      <form 
+        action="https://buttondown.com/api/emails/embed-subscribe/jacobng" 
+        method="post" 
+        target="popupwindow"
+        class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+      >
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Enter your email" 
+          required
+          class="flex-1 px-4 py-3 border border-brand-gray-300 rounded text-sm focus:outline-none focus:border-brand-black"
+        />
+        <button 
+          type="submit"
+          class="px-6 py-3 bg-brand-black text-white font-medium text-sm rounded hover:bg-brand-gray-800 transition-colors"
+        >
+          Subscribe
+        </button>
+      </form>
     </div>
   </section>
 </BaseLayout>

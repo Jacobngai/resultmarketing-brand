@@ -4,7 +4,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "Business insights for Malaysian SMEs. AI, automation, and growth strategies." } = Astro.props;
+const { title, description = "Business intelligence for growth-minded Malaysian leaders. Insights from proven entrepreneurs, translated for local realities." } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -13,83 +13,123 @@ const { title, description = "Business insights for Malaysian SMEs. AI, automati
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
-  <title>{title} | Result Marketing</title>
+  <title>{title} | Result Marketing Brief</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-white text-brand-gray-900 font-sans antialiased">
+  <!-- Top Bar -->
+  <div class="bg-brand-black text-white text-xs py-2 text-center">
+    <span class="text-brand-gray-400">Business intelligence for growth-minded leaders</span>
+    <span class="mx-2 text-brand-gray-600">|</span>
+    <a href="#subscribe" class="text-white hover:underline">Subscribe free →</a>
+  </div>
+
   <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-brand-gray-100">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="/" class="text-xl font-semibold tracking-tight">
-        Result Marketing
-      </a>
-      <div class="flex items-center gap-8">
-        <a href="/learn" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">Learn</a>
-        <a href="/about" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">About</a>
-        <a href="https://seo.resultmarketing.asia" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">SEO Services</a>
-        <a href="https://cal.com/zen-pdcnlc/coffee" class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors">
-          Book a Call
+  <nav class="sticky top-0 z-50 bg-white border-b border-brand-gray-200">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-xl font-bold tracking-tight">Result Marketing</span>
+          <span class="text-xs font-medium text-brand-blue uppercase tracking-wider border border-brand-blue px-2 py-0.5 rounded">Brief</span>
         </a>
+        
+        <!-- Main Nav -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="/learn" class="text-sm font-medium text-brand-gray-600 hover:text-brand-black transition-colors">Analysis</a>
+          <a href="/learn?category=growth" class="text-sm font-medium text-brand-gray-600 hover:text-brand-black transition-colors">Growth</a>
+          <a href="/learn?category=operations" class="text-sm font-medium text-brand-gray-600 hover:text-brand-black transition-colors">Operations</a>
+          <a href="/learn?category=marketing" class="text-sm font-medium text-brand-gray-600 hover:text-brand-black transition-colors">Marketing</a>
+          <a href="/about" class="text-sm font-medium text-brand-gray-600 hover:text-brand-black transition-colors">About</a>
+        </div>
+
+        <!-- CTA -->
+        <div class="flex items-center gap-4">
+          <a href="https://seo.resultmarketing.asia" class="text-sm text-brand-gray-500 hover:text-brand-black transition-colors hidden md:block">Services</a>
+          <a href="https://cal.com/zen-pdcnlc/coffee" class="px-4 py-2 bg-brand-black text-white text-sm font-medium rounded hover:bg-brand-gray-800 transition-colors">
+            Contact
+          </a>
+        </div>
       </div>
     </div>
   </nav>
 
   <!-- Main content -->
-  <main class="pt-20">
+  <main>
     <slot />
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-brand-gray-100 mt-32">
-    <div class="max-w-6xl mx-auto px-6 py-16">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-        <!-- Newsletter -->
-        <div class="md:col-span-2">
-          <h3 class="text-lg font-semibold mb-4">Get new posts by email</h3>
-          <p class="text-brand-gray-600 text-sm leading-relaxed mb-4">
-            Join other Malaysian business owners. No spam, no courses to sell.
+  <footer class="bg-brand-gray-50 border-t border-brand-gray-200">
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- Brand -->
+        <div class="col-span-2 md:col-span-1">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-bold">Result Marketing</span>
+            <span class="text-xs font-medium text-brand-blue uppercase tracking-wider">Brief</span>
+          </div>
+          <p class="text-sm text-brand-gray-600 leading-relaxed">
+            Business intelligence for growth-minded Malaysian leaders.
           </p>
+        </div>
+        
+        <!-- Topics -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-brand-gray-500 mb-4">Topics</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="/learn?category=growth" class="hover:text-brand-black transition-colors">Business Growth</a></li>
+            <li><a href="/learn?category=operations" class="hover:text-brand-black transition-colors">Operations</a></li>
+            <li><a href="/learn?category=marketing" class="hover:text-brand-black transition-colors">Marketing</a></li>
+            <li><a href="/learn?category=hiring" class="hover:text-brand-black transition-colors">Hiring</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-brand-gray-500 mb-4">Company</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="/about" class="hover:text-brand-black transition-colors">About Us</a></li>
+            <li><a href="/about#team" class="hover:text-brand-black transition-colors">Editorial Team</a></li>
+            <li><a href="https://seo.resultmarketing.asia" class="hover:text-brand-black transition-colors">SEO Services</a></li>
+            <li><a href="https://cal.com/zen-pdcnlc/coffee" class="hover:text-brand-black transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Subscribe -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-brand-gray-500 mb-4">Subscribe</h4>
+          <p class="text-sm text-brand-gray-600 mb-3">Weekly intelligence brief.</p>
           <form 
             action="https://buttondown.com/api/emails/embed-subscribe/jacobng" 
             method="post" 
-            target="popupwindow" 
-            class="flex gap-2"
+            target="popupwindow"
           >
             <input 
               type="email" 
               name="email" 
               placeholder="your@email.com" 
               required
-              class="flex-1 px-4 py-2 text-sm rounded-full border border-brand-gray-300 focus:outline-none focus:border-brand-black"
+              class="w-full px-3 py-2 text-sm border border-brand-gray-300 rounded mb-2 focus:outline-none focus:border-brand-black"
             />
             <button 
               type="submit" 
-              class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors"
+              class="w-full px-3 py-2 bg-brand-black text-white text-sm font-medium rounded hover:bg-brand-gray-800 transition-colors"
             >
               Subscribe
             </button>
           </form>
         </div>
-        <div>
-          <h4 class="text-sm font-medium mb-4">Links</h4>
-          <ul class="space-y-2 text-sm text-brand-gray-600">
-            <li><a href="/learn" class="hover:text-brand-black transition-colors">Learn</a></li>
-            <li><a href="/about" class="hover:text-brand-black transition-colors">About</a></li>
-            <li><a href="https://seo.resultmarketing.asia" class="hover:text-brand-black transition-colors">SEO Services</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="text-sm font-medium mb-4">Connect</h4>
-          <ul class="space-y-2 text-sm text-brand-gray-600">
-            <li><a href="https://cal.com/zen-pdcnlc/coffee" class="hover:text-brand-black transition-colors">Book a Call</a></li>
-            <li><a href="mailto:jacob@resultmarketing.asia" class="hover:text-brand-black transition-colors">Email</a></li>
-          </ul>
-        </div>
       </div>
-      <div class="border-t border-brand-gray-100 mt-12 pt-8 text-center text-sm text-brand-gray-500">
-        © 2026 Jacob Ng. All rights reserved.
+      
+      <div class="border-t border-brand-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-brand-gray-500">
+        <p>© 2026 Result Marketing Brief. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="/privacy" class="hover:text-brand-black transition-colors">Privacy</a>
+          <a href="/terms" class="hover:text-brand-black transition-colors">Terms</a>
+        </div>
       </div>
     </div>
   </footer>

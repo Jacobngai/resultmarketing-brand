@@ -2,113 +2,141 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About Jacob Ng" description="Information Systems Engineer, entrepreneur, and lifelong learner sharing business insights for Malaysian SMEs.">
-  <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <h1 class="text-display font-semibold mb-8">About me</h1>
-      <p class="text-xl text-brand-gray-600 mb-16">
-        Hey, I'm Jacob. This is where I share what I'm learning about business.
+<BaseLayout title="About Us" description="Learn about the team behind Result Marketing Brief and our editorial mission.">
+  <!-- Hero -->
+  <section class="border-b border-brand-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-16">
+      <p class="text-sm font-medium text-brand-blue uppercase tracking-wider mb-4">About</p>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        We turn noise into signal.
+      </h1>
+      <p class="text-xl text-brand-gray-600 leading-relaxed">
+        Result Marketing Brief is an independent business publication focused on translating global business intelligence for Malaysian SME leaders.
       </p>
-      
-      <div class="space-y-12 text-brand-gray-700 leading-relaxed">
-        
-        <!-- Background -->
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="border-b border-brand-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 gap-12">
         <div>
-          <h2 class="text-2xl font-semibold text-brand-black mb-4">Background</h2>
-          <p class="mb-4">
-            I'm an <strong>Information Systems Engineer</strong> by training. Graduated, worked in tech, but always felt pulled toward building businesses rather than working in them.
+          <h2 class="text-2xl font-bold mb-4">Our Mission</h2>
+          <p class="text-brand-gray-600 leading-relaxed mb-4">
+            The best business insights are buried in 3-hour podcasts, paywalled newsletters, and books that take weeks to read. We do that work for you.
           </p>
-          <p class="mb-4">
-            Today I run <a href="https://seo.resultmarketing.asia" class="text-brand-blue hover:underline">Result Marketing</a>, an SEO agency helping Malaysian businesses get found online. I also help clients automate their workflows — from CRM systems to AI-powered content.
+          <p class="text-brand-gray-600 leading-relaxed mb-4">
+            Our team consumes 50+ hours of business content weekly — from Sam Parr and Alex Hormozi to Jay Abraham and classic business literature — then distills it to the 5% that actually matters.
           </p>
-          <p>
-            But this site isn't about my agency. It's about the learning that happens along the way.
-          </p>
-        </div>
-
-        <!-- Credentials -->
-        <div class="p-8 bg-brand-gray-50 rounded-2xl">
-          <h3 class="font-semibold text-brand-black mb-4">Quick facts</h3>
-          <ul class="space-y-3">
-            <li class="flex gap-3">
-              <span class="text-brand-blue">🎓</span>
-              <span><strong>Information Systems Engineer</strong> — Technical foundation in how systems work</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-brand-blue">🚀</span>
-              <span><strong>Entrepreneur</strong> — Building and running businesses in Malaysia since 2019</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-brand-blue">📚</span>
-              <span><strong>Lifelong Learner</strong> — 200+ business podcasts, books, and masterclasses consumed (and counting)</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-brand-blue">🇲🇾</span>
-              <span><strong>Based in Malaysia</strong> — Understanding local market challenges firsthand</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Why this site -->
-        <div>
-          <h2 class="text-2xl font-semibold text-brand-black mb-4">Why I write</h2>
-          <p class="mb-4">
-            I consume a lot of business content. Jay Abraham, Alex Hormozi, Sam Parr, Dharmesh Shah — people who've built real businesses and share how they did it.
-          </p>
-          <p class="mb-4">
-            Most of their advice targets the US market. Different economy, different culture, different challenges. I take what resonates and think about how it applies to Malaysian SMEs.
-          </p>
-          <p>
-            Writing helps me process and remember. If it helps you too, that's a bonus.
+          <p class="text-brand-gray-600 leading-relaxed">
+            Every insight is then translated through the lens of Malaysian business realities: local hiring challenges, BNI networking culture, regional market dynamics.
           </p>
         </div>
-
-        <!-- Philosophy -->
-        <div>
-          <h2 class="text-2xl font-semibold text-brand-black mb-4">How I think</h2>
-          <ul class="space-y-4">
-            <li>
-              <strong class="text-brand-black">Evidence over trends.</strong>
-              <span class="text-brand-gray-600"> I value knowledge that's stood the test of time. Data beats opinions. Peer-reviewed studies beat viral threads.</span>
-            </li>
-            <li>
-              <strong class="text-brand-black">First principles.</strong>
-              <span class="text-brand-gray-600"> I try to understand WHY something works, not just copy what others do. If you understand the principle, you can adapt to any situation.</span>
-            </li>
-            <li>
-              <strong class="text-brand-black">Hypothesis → Test → Result → Iterate.</strong>
-              <span class="text-brand-gray-600"> The scientific method applied to business. Most "strategy" is really just experiments that haven't been tested yet.</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Current focus -->
-        <div>
-          <h2 class="text-2xl font-semibold text-brand-black mb-4">What I'm working on</h2>
-          <p class="mb-4">Right now I'm deep into:</p>
-          <ul class="space-y-2">
-            <li>→ Building automated marketing systems using AI</li>
-            <li>→ Understanding how AI changes SEO (and how to adapt)</li>
-            <li>→ Scaling without losing quality</li>
-          </ul>
-        </div>
-
-        <!-- Connect -->
-        <div class="border-t border-brand-gray-200 pt-12">
-          <h2 class="text-2xl font-semibold text-brand-black mb-4">Want to connect?</h2>
-          <p class="mb-6">
-            I'm always happy to chat with fellow business owners. No pitch, just conversation.
-          </p>
-          <div class="flex flex-wrap gap-4">
-            <a href="https://cal.com/zen-pdcnlc/coffee" class="px-6 py-3 bg-brand-black text-white rounded-full hover:bg-brand-gray-800 transition-colors">
-              Book a virtual coffee
-            </a>
-            <a href="mailto:jacob@resultmarketing.asia" class="px-6 py-3 border border-brand-gray-300 rounded-full hover:border-brand-black transition-colors">
-              Email me
-            </a>
+        <div class="bg-brand-gray-50 p-8 rounded-lg">
+          <h3 class="text-lg font-semibold mb-4">By the Numbers</h3>
+          <div class="space-y-4">
+            <div>
+              <div class="text-3xl font-bold text-brand-blue">207+</div>
+              <div class="text-sm text-brand-gray-600">Sources analyzed</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-brand-blue">340K+</div>
+              <div class="text-sm text-brand-gray-600">Words of transcripts processed</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-brand-blue">50+</div>
+              <div class="text-sm text-brand-gray-600">Hours consumed weekly</div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Editorial Standards -->
+  <section class="border-b border-brand-gray-200 bg-brand-gray-50">
+    <div class="max-w-4xl mx-auto px-6 py-16">
+      <h2 class="text-2xl font-bold mb-8">Editorial Standards</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg border border-brand-gray-200">
+          <div class="text-2xl mb-3">🎯</div>
+          <h3 class="font-semibold mb-2">Evidence Over Hype</h3>
+          <p class="text-sm text-brand-gray-600 leading-relaxed">
+            We prioritize insights from operators with track records — not influencers chasing trends. Peer-reviewed research and battle-tested frameworks over viral threads.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-brand-gray-200">
+          <div class="text-2xl mb-3">🔍</div>
+          <h3 class="font-semibold mb-2">Source Transparency</h3>
+          <p class="text-sm text-brand-gray-600 leading-relaxed">
+            Every article cites its source material. We link to original content so you can go deeper if you want to verify or explore further.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-brand-gray-200">
+          <div class="text-2xl mb-3">🇲🇾</div>
+          <h3 class="font-semibold mb-2">Local Lens</h3>
+          <p class="text-sm text-brand-gray-600 leading-relaxed">
+            Global insights are useless without local context. We translate every concept for Malaysian SME realities — from regulatory environment to cultural nuances.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg border border-brand-gray-200">
+          <div class="text-2xl mb-3">⚡</div>
+          <h3 class="font-semibold mb-2">Action Bias</h3>
+          <p class="text-sm text-brand-gray-600 leading-relaxed">
+            Theory is cheap. Every article must answer: "What can I do about this Monday morning?" No fluff, no filler, no 10,000-word essays saying nothing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="border-b border-brand-gray-200">
+    <div class="max-w-4xl mx-auto px-6 py-16">
+      <h2 class="text-2xl font-bold mb-8">Editorial Team</h2>
+      <div class="space-y-8">
+        <!-- Jacob -->
+        <div class="flex gap-6 items-start">
+          <div class="w-20 h-20 bg-brand-gray-100 rounded-lg flex-shrink-0 flex items-center justify-center">
+            <span class="text-3xl">👤</span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold">Jacob Ng</h3>
+            <p class="text-sm text-brand-blue font-medium mb-2">Founder & Editor-in-Chief</p>
+            <p class="text-sm text-brand-gray-600 leading-relaxed">
+              Information Systems engineer turned entrepreneur. Runs Result Marketing (SEO agency) and consults for Malaysian SMEs on automation and growth. Studies business obsessively — has processed 200+ hours of business content in the past year alone.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Contributing Writers -->
+        <div class="pt-8 border-t border-brand-gray-200">
+          <h3 class="text-lg font-semibold mb-4">Contributing Writers</h3>
+          <p class="text-sm text-brand-gray-600 leading-relaxed mb-4">
+            We're building a network of business practitioners, researchers, and analysts who can contribute domain expertise. Interested in writing for us?
+          </p>
+          <a href="mailto:editorial@resultmarketing.asia" class="text-sm text-brand-blue font-medium hover:underline">
+            Get in touch →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-brand-black text-white">
+    <div class="max-w-4xl mx-auto px-6 py-16 text-center">
+      <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+      <p class="text-brand-gray-400 mb-8">
+        For editorial inquiries, partnership opportunities, or speaking engagements.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="mailto:editorial@resultmarketing.asia" class="px-6 py-3 bg-white text-brand-black font-medium rounded hover:bg-brand-gray-100 transition-colors">
+          Email Us
+        </a>
+        <a href="https://cal.com/zen-pdcnlc/coffee" class="px-6 py-3 border border-white/30 text-white font-medium rounded hover:bg-white/10 transition-colors">
+          Book a Call
+        </a>
       </div>
     </div>
   </section>

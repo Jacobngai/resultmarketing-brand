@@ -7,9 +7,11 @@ interface Props {
   sourceUrl?: string;
   excerpt: string;
   malaysiaInsight?: string;
+  author?: string;
+  readTime?: string;
 }
 
-const { title, date, category, source, sourceUrl, excerpt, malaysiaInsight } = Astro.props.frontmatter || Astro.props;
+const { title, date, category, source, sourceUrl, excerpt, malaysiaInsight, author, readTime } = Astro.props.frontmatter || Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -46,22 +48,33 @@ const { title, date, category, source, sourceUrl, excerpt, malaysiaInsight } = A
     <article class="py-20">
       <div class="max-w-3xl mx-auto px-6">
         <!-- Header -->
-        <header class="mb-16">
-          <div class="flex items-center gap-3 mb-6">
-            <span class="text-sm font-medium text-brand-blue bg-brand-blue/10 px-3 py-1 rounded-full">
-              {category}
-            </span>
-            <span class="text-sm text-brand-gray-400">{date}</span>
+        <header class="mb-12">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-xs font-medium text-brand-blue uppercase tracking-wide">{category}</span>
           </div>
-          <h1 class="text-4xl font-semibold mb-6 leading-tight">{title}</h1>
-          <p class="text-xl text-brand-gray-600 leading-relaxed">{excerpt}</p>
+          <h1 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">{title}</h1>
+          <p class="text-xl text-brand-gray-600 leading-relaxed mb-6">{excerpt}</p>
           
-          <div class="mt-8 p-6 bg-brand-gray-50 rounded-2xl">
-            <div class="text-sm text-brand-gray-500 mb-1">Source</div>
-            <div class="font-medium">{source}</div>
+          <!-- Author & Meta -->
+          <div class="flex items-center justify-between py-4 border-t border-b border-brand-gray-200">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-brand-gray-100 rounded-full flex items-center justify-center">
+                <span class="text-lg">👤</span>
+              </div>
+              <div>
+                <div class="text-sm font-medium">{author || 'Editorial Team'}</div>
+                <div class="text-xs text-brand-gray-500">{date} • {readTime || '5 min read'}</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Source -->
+          <div class="mt-6 p-4 bg-brand-gray-50 rounded-lg border border-brand-gray-200">
+            <div class="text-xs font-medium text-brand-gray-500 uppercase tracking-wide mb-1">Source Material</div>
+            <div class="text-sm font-medium">{source}</div>
             {sourceUrl && (
-              <a href={sourceUrl} target="_blank" rel="noopener" class="text-sm text-brand-blue hover:underline mt-1 inline-block">
-                Watch original →
+              <a href={sourceUrl} target="_blank" rel="noopener" class="text-xs text-brand-blue hover:underline mt-1 inline-block">
+                View original →
               </a>
             )}
           </div>
