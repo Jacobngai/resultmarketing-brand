@@ -10,14 +10,12 @@ coverImage: "/images/toll-booth-hero.png"
 source: "Jay Abraham Marketing Masterclass"
 sourceUrl: "https://www.youtube.com/watch?v=jay-abraham-masterclass"
 excerpt: "Jay Abraham's $400 million lesson: Stop being one of 10,000 distributors. Control the product, control the profit."
-malaysiaInsight: |
-  Malaysian SMEs often compete on "better service" or "lower price" — the same game everyone plays.
+myTake: |
+  This hit me hard. Most Malaysian SMEs compete on "better service" or "lower price" — the same game everyone plays.
   
-  1. **Find products with bad marketing** — Great foreign products often have zero presence in Malaysia. Secure exclusive rights for your region.
-  2. **Build distribution first** — Partner with associations, clinics, retailers. Own the channel before you own the product.
-  3. **Your network is your exit** — 100 partners buying repeatedly = sellable business asset. This is how local distributors get acquired.
+  I've seen it over and over: agencies competing for the same clients, offering the same services, racing to the bottom on price.
   
-  Stop working hard for products everyone else can sell. Work smart for products only YOU control.
+  The toll booth principle changed how I think about business. Don't compete where everyone competes. Find the position where you're the ONLY option.
 ---
 
 ![Control the Toll Booth - Strategic Position](/images/toll-booth-hero.png)
@@ -118,15 +116,17 @@ Once you have distribution — medical clinics, salons, retailers, associations 
 
 One distribution channel. Many products. That's leverage.
 
-## The Malaysian Application
+## My Take
 
-For Malaysian SMEs, this principle is everywhere:
+This hit me hard. Most Malaysian SMEs compete on "better service" or "lower price" — the same game everyone plays.
 
-**Don't be another "digital marketing agency."** Secure exclusive partnership with a specific software vendor for Southeast Asia.
+I've seen it over and over: agencies competing for the same clients, offering the same services, racing to the bottom on price. Everyone works hard. Nobody builds a toll booth.
 
-**Don't be another "financial advisor."** Become THE recommended advisor for a professional association.
+**What does a toll booth look like for local businesses?**
 
-**Don't be another "supplier."** Get exclusive distribution rights for quality products not yet in Malaysia.
+- Don't be another "digital marketing agency." Secure exclusive partnership with a specific software vendor for Southeast Asia.
+- Don't be another "financial advisor." Become THE recommended advisor for a professional association.
+- Don't be another "supplier." Get exclusive distribution rights for quality products not yet in Malaysia.
 
 The work isn't easier. But the outcome is different: you're building an asset someone will buy, not just a job someone could replace.
 
@@ -139,6 +139,30 @@ The work isn't easier. But the outcome is different: you're building an asset so
 - **$400M lesson** — Distribution you own is the only real business asset
 
 > "If you are going to work hard and build distribution... you don't want them to sell a product that a thousand other distributors can sell. You want them to sell a product that you only are the one that has the rights to."
+
+---
+
+## This Is Why We Created Result Marketing
+
+大巧若拙 — *"Great skill appears clumsy."*
+
+Most marketing agencies fight for the same clients, offer the same services, compete on the same platforms. They look busy. They look impressive. But they're racing to the bottom.
+
+We took a different approach: **AIEO** — AI Engine Optimization.
+
+While others burn money on TikTok ads that AI will never see, we build content that AI actually recommends. Your website is the only asset ChatGPT, Perplexity, and Claude can read. That's our toll booth.
+
+It doesn't look flashy. It just works.
+
+**[See our SEO services →](https://seo.resultmarketing.asia)**
+
+---
+
+## Ready to Build Your Toll Booth?
+
+Book a free consultation to see if AIEO is the right distribution strategy for your business.
+
+[Book a call →](https://cal.com/zen-pdcnlc/coffee)
 
 ---
 
