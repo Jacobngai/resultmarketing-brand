@@ -23,6 +23,8 @@ malaysiaInsight: |
   My advice for Malaysian SME owners: For your first 3 hires, go experienced. Pay the premium. Once you have a strong foundation, THEN you can afford to train juniors — because your experienced team will do the training for you.
 ---
 
+![Experienced professional mentoring junior colleague](/images/hire-experienced-hero.png)
+
 ## The Confession
 
 Sam Parr, co-founder of The Hustle (sold for $27M), shared something most entrepreneurs won't admit:
@@ -34,6 +36,8 @@ He's been making this mistake for years. The romantic idea of finding "diamonds 
 **The reality?** Hiring experienced people who cost 2-3x more delivers results that are 5-10x better.
 
 ## Why We Fall For This Trap
+
+![The diamond in the rough fantasy](/images/diamond-rough.png)
 
 There are two reasons entrepreneurs keep hiring cheap juniors:
 
@@ -54,6 +58,8 @@ Before hiring a young, unproven candidate, ask:
 That's it. A sanity check that forces you to consider the proven path.
 
 ## When Juniors CAN Work
+
+![Mentorship and training in action](/images/mentorship-training.png)
 
 Sam found one pattern that works: **Pair juniors with agencies.**
 
