@@ -62,8 +62,14 @@ const recentPosts = posts.slice(1, 7);
               </div>
             </a>
           </div>
-          <div class="bg-brand-gray-100 aspect-[4/3] rounded-lg flex items-center justify-center">
-            <span class="text-6xl">{featuredPost.frontmatter.emoji || '📈'}</span>
+          <div class="bg-brand-gray-100 aspect-[4/3] rounded-lg overflow-hidden">
+            {featuredPost.frontmatter.coverImage ? (
+              <img src={featuredPost.frontmatter.coverImage} alt={featuredPost.frontmatter.title} class="w-full h-full object-cover" />
+            ) : (
+              <div class="w-full h-full flex items-center justify-center">
+                <span class="text-6xl">{featuredPost.frontmatter.emoji || '📈'}</span>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -83,8 +89,14 @@ const recentPosts = posts.slice(1, 7);
         {recentPosts.map((post) => (
           <article class="group">
             <a href={`/learn/${post.file.split('/').pop()?.replace('.md', '')}`}>
-              <div class="bg-brand-gray-50 aspect-[16/10] rounded-lg mb-4 flex items-center justify-center group-hover:bg-brand-gray-100 transition-colors">
-                <span class="text-4xl">{post.frontmatter.emoji || '💡'}</span>
+              <div class="bg-brand-gray-50 aspect-[16/10] rounded-lg mb-4 overflow-hidden group-hover:opacity-90 transition-opacity">
+                {post.frontmatter.coverImage ? (
+                  <img src={post.frontmatter.coverImage} alt={post.frontmatter.title} class="w-full h-full object-cover" />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center">
+                    <span class="text-4xl">{post.frontmatter.emoji || '💡'}</span>
+                  </div>
+                )}
               </div>
               <span class="text-xs font-medium text-brand-blue uppercase tracking-wide">{post.frontmatter.category}</span>
               <h3 class="text-lg font-semibold mt-2 mb-2 leading-snug group-hover:text-brand-blue transition-colors">

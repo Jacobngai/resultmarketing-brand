@@ -44,8 +44,14 @@ const categories = [...new Set(posts.map(p => p.frontmatter.category).filter(Boo
           {posts.map((post, index) => (
             <article class={`group ${index === 0 ? 'md:col-span-2 lg:col-span-2' : ''}`}>
               <a href={`/learn/${post.file.split('/').pop()?.replace('.md', '')}`}>
-                <div class={`bg-brand-gray-50 rounded-lg mb-4 flex items-center justify-center group-hover:bg-brand-gray-100 transition-colors ${index === 0 ? 'aspect-[2/1]' : 'aspect-[16/10]'}`}>
-                  <span class={index === 0 ? 'text-6xl' : 'text-4xl'}>{post.frontmatter.emoji || '📊'}</span>
+                <div class={`bg-brand-gray-50 rounded-lg mb-4 overflow-hidden group-hover:opacity-90 transition-opacity ${index === 0 ? 'aspect-[2/1]' : 'aspect-[16/10]'}`}>
+                  {post.frontmatter.coverImage ? (
+                    <img src={post.frontmatter.coverImage} alt={post.frontmatter.title} class="w-full h-full object-cover" />
+                  ) : (
+                    <div class="w-full h-full flex items-center justify-center">
+                      <span class={index === 0 ? 'text-6xl' : 'text-4xl'}>{post.frontmatter.emoji || '📊'}</span>
+                    </div>
+                  )}
                 </div>
                 <div class="flex items-center gap-2 mb-2">
                   <span class="text-xs font-medium text-brand-blue uppercase tracking-wide">{post.frontmatter.category}</span>
