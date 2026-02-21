@@ -8,119 +8,110 @@ readTime: "6 min read"
 emoji: "⚙️"
 source: "My First Million Podcast ft. Ryan Deiss"
 sourceUrl: "https://www.youtube.com/watch?v=kEK5CZy17Ng"
-excerpt: "Most business owners are trapped working IN their business instead of ON it. Here's the framework for building systems that set you free."
+excerpt: "Ryan Deiss shares his framework for going from 80 hours/week to 1 hour/week — and why most entrepreneurs choose to stay trapped."
 malaysiaInsight: |
   Malaysian SME owners often wear every hat — sales, operations, finance, HR. It's exhausting, and it's why so many businesses plateau at RM1-2M revenue.
 
-  The systemization framework from Ryan Deiss translates perfectly to Malaysian SMEs:
+  Ryan Deiss's quote hits home: "The more valuable you are, the less valuable the company is."
   
-  1. **Start with your biggest bottleneck** — What task ONLY you can do that's holding everything back? For most Malaysian SMEs, it's sales or client relationships.
+  The Malaysian translation:
   
-  2. **Document before you delegate** — Don't just tell your staff what to do. Record a Loom video, write an SOP. Malaysian employees often won't ask questions — they'll just guess. Remove the guessing.
+  1. **"Boss kena buat semua"** — If everything depends on you, you don't have a business. You have a job you own.
   
-  3. **The "vacation test"** — Can your business survive 2 weeks without you? If not, you don't have a business — you have a job you own. Most Malaysian SME owners fail this test.
+  2. **The vacation test** — Can you take 2 weeks off without checking WhatsApp? Most Malaysian bosses fail this test. The business owns THEM.
   
-  4. **Hire for the system, not the chaos** — Stop hiring "all-rounders" who can figure it out. Hire specialists who can execute your documented systems.
+  3. **Team executes without you** — This is the goal. But it requires documentation, defaults, and letting go of control.
   
-  My recommendation: Block 2 hours every Friday to document ONE process. In 6 months, you'll have 24 SOPs. That's the foundation of a sellable business.
+  **My recommendation:** Block 2 hours every Friday to document ONE process. In 6 months, you'll have 24 SOPs. That's the foundation of a business that runs without you.
 ---
 
 ![Business systems and automation](/images/business-systems-hero.png)
 
-## The Trap Most Entrepreneurs Fall Into
+## The Wall at $7-10 Million
 
-Ryan Deiss built and sold multiple businesses, including DigitalMarketer. His key insight? **Most business owners are the biggest bottleneck in their own company.**
+Sam Parr opens the conversation with a truth bomb:
 
-> "You started a business for freedom. But now you're working 60 hours a week and you can't take a vacation without everything falling apart."
+> "I've been running businesses for 15 years and I've hit this wall multiple times. It's somewhere around seven, eight, nine, 10 million in revenue where suddenly your biggest problem — it's not a lack of ideas. It's an issue with you. You're the bottleneck."
 
-Sound familiar? That's because you've built a job, not a business.
+Enter Ryan Deiss, who built and sold multiple companies including DigitalMarketer. His key insight:
 
-## The Difference Between a Job and a Business
+> "The more valuable you are, the less valuable the company is."
 
-Here's the brutal truth:
+That quote changed how Sam thought about business. And it should change how you think too.
 
-- **A job** requires YOUR time to make money
-- **A business** makes money whether you're there or not
+## Player vs Owner
 
-The goal isn't to work harder. It's to become replaceable.
+Ryan frames the choice clearly:
+
+> "You're either going to be the most valuable player or you're going to own the team."
+
+Most entrepreneurs would rather be valuable:
+
+> "Most entrepreneurs would much rather be valuable. And they would rather do the things that enable them to get started than do the things that are going to enable them to actually achieve the things that they say they want."
+
+Here's the uncomfortable truth:
+
+> "Really they kind of like being important. They kind of like being valuable. And I think that's — you've got to decide what do you actually want. And the nice thing is it's your business, so you get to decide."
 
 ![Delegation and team empowerment](/images/delegation-team.png)
 
-## Why We Fall For This Trap
+## The Messy Entrepreneur vs The Goal
 
-### 1. The "Nobody Can Do It Like Me" Syndrome
-You've convinced yourself that your way is the only way. That's ego, not strategy.
+The podcast shows a graphic of the "before and after":
 
-Yes, someone else might do it 80% as well as you. But if you can hire 5 people doing things 80% as well, that's 400% output vs your 100%.
+**The Messy Entrepreneur:**
+> "You're working 80 hours a week. You're in the weeds. If you ask 'who owns this?' the answer is 'me, me' for each area. The whole team is asking you 'hey got a minute to talk about X?' 200 times a day. You're missing soccer games. You can't sell the business because it's too dependent on you. And the business owns you rather than you owning the business."
 
-### 2. The Cost Fallacy
-"It's cheaper if I just do it myself."
+**The Ideal Outcome:**
+> "It's an hour a week for you. Team executes without you, the team optimizes without you, the team decides without you. You can take a 30-day vacation, you break revenue records while you're gone, and you're exit ready if you want to."
 
-No, it's not. Your time has an opportunity cost. If you're worth RM500/hour in sales calls, spending 3 hours on bookkeeping isn't saving money — it's burning RM1,500.
+Sam clarifies:
 
-### 3. Lack of Documentation
-You've never written down how to do things. So delegation fails, and you conclude "I just have to do it myself."
+> "This is for an entrepreneur who wants to exit, you know, wants to build what is sort of insultingly called a lifestyle business, but is I think the main type of business I'm interested in. I use business to have a good lifestyle."
 
-The problem isn't your team. The problem is you never gave them a playbook.
+## The Process: Establish Defaults
 
-## The 4-Step System for Freedom
+So how do you get there? Ryan shares the starting point:
 
-Ryan Deiss shares his framework:
+> "The way that you begin to implement it is you have to establish defaults."
 
-### Step 1: Document Everything
-Before you can delegate, you need to capture how things are done.
+**The impulse control problem:**
 
-- Record Loom videos of yourself doing tasks
-- Create step-by-step checklists
-- Build templates for repetitive work
+Sam admits:
 
-**The rule:** If you do something more than twice, document it.
+> "The problem is impulse control. I can say that I want something and I do truly want it — but 20 years of previous behaviors have to be broken and it's incredibly challenging to actually do that. Evolving as a person is way more challenging than a lot of people think."
 
-### Step 2: Delegate to a Person
-Now that you have documentation, hand it off.
-
-Don't just dump tasks. Train someone on the system, then let them own it completely. If they have questions, update the documentation — don't just answer verbally.
-
-### Step 3: Automate Where Possible
-Once a human is doing it consistently, look for automation opportunities.
-
-- Zapier for connecting apps
-- ChatGPT for drafting content
-- Automated email sequences
-- Scheduled reports
+This is key. You can WANT freedom, but habits of being the valuable one are hard to break.
 
 ![Business running on autopilot](/images/business-autopilot.png)
 
-### Step 4: Eliminate the Unnecessary
-The final step most people skip: **Stop doing things that don't matter.**
+## Why Most People Stay Trapped
 
-Not everything needs to be done. Some tasks exist because "we've always done it that way." Kill them.
+The trap isn't lack of knowledge. It's ego:
 
-## The 80/20 of Systemization
+> "It felt really good to be the man, to be the one creating all the value, to taking all the shots and having your name everywhere and your face everywhere and your fingerprints."
 
-Focus on the 20% of systems that drive 80% of results:
+The question isn't CAN you build systems. It's: **Do you actually want to stop being important?**
 
-1. **Lead Generation** — How do new customers find you?
-2. **Sales Process** — How do leads become customers?
-3. **Delivery** — How do customers get what they paid for?
-4. **Support** — How do you handle problems?
+For many entrepreneurs, the answer is no — even if they say otherwise.
 
-Get these four systems documented and delegated, and you've solved 80% of the problem.
+## The 30-Day Vacation Test
 
-## The Vacation Test
+Here's the real test of whether you've built a business or a job:
 
-Here's your homework:
+> "Can you take a 30-day vacation... and come back to a business that's still running?"
 
-> "Can you take a 2-week vacation without checking email or answering calls — and come back to a business that's still running?"
+Better yet — can you break revenue records while you're gone?
 
-If the answer is no, you know what to work on.
+If the answer is no, you know exactly what to work on.
 
 ---
 
 ## Key Takeaways
 
-- **You're probably the biggest bottleneck in your own business**
-- **Document before you delegate — your team can't read your mind**
-- **The goal is to become replaceable, not indispensable**
-- **Focus on the 4 core systems: Lead Gen, Sales, Delivery, Support**
-- **Take the vacation test — if you can't leave for 2 weeks, you have a job, not a business**
+- **"The more valuable you are, the less valuable the company is."** — Ryan Deiss
+- **You're either the most valuable player or you own the team** — not both
+- **The trap is ego** — we like feeling important, even if it traps us
+- **Establish defaults** — the starting point for building systems
+- **The 30-day vacation test** — can your business break records without you?
+- **It's a choice** — and it requires breaking 20 years of habits

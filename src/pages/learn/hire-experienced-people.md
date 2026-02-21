@@ -27,61 +27,87 @@ malaysiaInsight: |
 
 ## The Confession
 
-Sam Parr, co-founder of The Hustle (sold for $27M), shared something most entrepreneurs won't admit:
+Sam Parr, co-founder of The Hustle (sold for $27M), shares the biggest mistake he keeps making:
 
 > "I tend to hire ambitious young people and take chances on them. And I hate to say it, but the majority of the time that is a horrible plan."
 
-He's been making this mistake for years. The romantic idea of finding "diamonds in the rough" — young, hungry talent you can mold into superstars.
+He's been doing this for years. And he finally admits:
 
-**The reality?** Hiring experienced people who cost 2-3x more delivers results that are 5-10x better.
+> "It's significantly better to hire more experienced people and pay them a lot more money — and I get way better results."
+
+**The math is simple:**
+
+> "They cost like two or three times more than a young and upcoming person, but the results are like five or 10 times better."
 
 ## Why We Fall For This Trap
 
+Sam identifies two biases that lead entrepreneurs astray:
+
+### 1. The Cheap Frugality Mindset
+
+> "I like to be cheap as hell when I build my companies. Get the cheap office, get the free desk off Craigslist. Our dog will be security. I'm going to build this the frugal way."
+
+This mindset helps in the early days — but becomes a liability when you need to execute. Frugality on desks is fine. Frugality on talent is expensive.
+
+### 2. The "Diamond in the Rough" Fantasy
+
+Sam admits the real reason he loves hiring juniors:
+
+> "I fall in love with the sort of angel investing in people idea. It's like the raw up-and-comer, never done anything, found this diamond in the rough."
+
+But here's the uncomfortable truth about why:
+
+> "Why do I like that? It's not for generous reasons — it's because I feel cool that I found that thing, right? It's like finding a needle in a haystack."
+
+The ego of "discovering" talent is seductive. But it's about YOU feeling clever — not about what's best for the business.
+
 ![The diamond in the rough fantasy](/images/diamond-rough.png)
 
-There are two reasons entrepreneurs keep hiring cheap juniors:
+## The Simple Question That Changes Everything
 
-### 1. The American Dream Fantasy
-We love the story of taking a broken person and fixing them. Finding someone nobody believed in and turning them into a star.
+Before hiring an unproven candidate, ask yourself:
 
-But that's ego, not strategy. You want to feel clever for "discovering" someone.
+> "We want this to go well, right? We want this to work. Does it make sense to just go with somebody who has never done anything even remotely like this? Or are there people in the world who have done very similar things that we could go talk to first?"
 
-### 2. Frugality Addiction
-Sam admits he built his companies with a "cheap" mindset — free desks off Craigslist, the dog as security. That mindset helped in the early days but becomes a liability when you need to execute.
+As soon as Sam started asking that question:
 
-## The Simple Question That Changed Everything
+> "I definitely had that same mistake sometimes. It can work. And when it does work, it's the best story. But check this out — I have such a low hit rate with that, right? By definition, you're going to have a low hit rate with that strategy."
 
-Before hiring a young, unproven candidate, ask:
+The experienced path is boring. But boring is profitable.
 
-> "We want this to go well. Does it make sense to go with somebody who has never done anything like this? Or are there people who have done similar things we could talk to first?"
+## The Agency + Junior Hybrid Strategy
 
-That's it. A sanity check that forces you to consider the proven path.
+Sam found one pattern that works — pairing inexperienced hires with external expertise:
 
-## When Juniors CAN Work
+> "I love hiring consultants and agencies, but I'll say: 'I'm only going to hire you for 2 months, and you're going to do the work for the first 30 days, but then the second 30 days, it's just you teaching me what to do.'"
+
+The result:
+
+> "I have found experience of like getting a young, ambitious, high agency, green person and teaming them up with an agency. And I have had some results with that."
+
+This way, the junior gets a blueprint to follow, not a blank canvas to fill.
 
 ![Mentorship and training in action](/images/mentorship-training.png)
 
-Sam found one pattern that works: **Pair juniors with agencies.**
+## Know Your Biases
 
-1. Hire an agency or consultant for 2 months
-2. Month 1: They do the work
-3. Month 2: They teach your junior how to do it
+The co-host sums it up:
 
-Now your ambitious young hire has a blueprint to follow, not a blank canvas to fill.
+> "Most of business is just figuring out what are your own leaks in your bucket. And then of course to other people who don't have that leak, they're like 'what? I mean obvious, right?' But you have to know what are my biases."
 
-## The Core Lesson
+Sam's biases:
+1. Being cheap
+2. Wanting to find "lovable underdog" talent he can fix
 
-**Hire for results, not for the story.**
-
-Your job isn't to be a talent scout discovering hidden gems. Your job is to build a business that wins.
-
-> "I always find people who say 'hire high agency people' or 'hire people whose growth rate is really high.' But in general, it's just kind of better to say: 'Hey, you already did this at this other company. Do it here, please.'"
+> "It's not to say you never hire a junior person, but too often defaulting to that. And so you got to know your own biases."
 
 ---
 
 ## Key Takeaways
 
 - **Experienced hires cost 2-3x more but deliver 5-10x results**
-- **The "diamond in the rough" fantasy serves your ego, not your business**
-- **If you must hire juniors, pair them with agencies who can train them**
-- **Always ask: Is there someone who has done this before?**
+- **The "diamond in the rough" fantasy serves your ego, not your business** — "I feel cool that I found that thing"
+- **Ask the sanity check question:** "Does it make sense to go with someone who has never done this?"
+- **If you must hire juniors, pair them with agencies** who can train them
+- **Know your biases** — frugality and "finding undiscovered talent" can hurt you
+- **Boring is profitable** — hiring someone who's already done the job isn't exciting, but it works

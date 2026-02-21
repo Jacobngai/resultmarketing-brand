@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title: "The 4 Types of Business (And Why Most People Pick Wrong)"
+title: "The 4 Problems Every Business Must Solve to Scale"
 date: "2026-02-21"
 category: "Business Growth"
 author: "Jacob Ng"
@@ -8,139 +8,129 @@ readTime: "7 min read"
 emoji: "🎯"
 source: "Alex Hormozi"
 sourceUrl: "https://www.youtube.com/watch?v=F84olnKkseM"
-excerpt: "Alex Hormozi breaks down the 4 business types by time investment and income potential. Most entrepreneurs are stuck in the wrong quadrant."
+excerpt: "Alex Hormozi breaks down the 4 sticking points that keep businesses stuck at $1-3M revenue. Each one feels impossible — until you solve it."
 malaysiaInsight: |
-  This framework explains why so many Malaysian business owners are exhausted. They're stuck in Quadrant 1 — trading time for money with no leverage.
+  This framework explains why so many Malaysian SME owners are exhausted. They're stuck at the $1-3M revenue range, hitting the same walls Hormozi describes.
 
-  **Where Malaysian SMEs typically sit:**
+  **How this applies to Malaysian SMEs:**
   
-  1. **Quadrant 1 (High Time, Low Income)** — Most kedai, service providers, freelancers. You ARE the business.
+  1. **Problem 1 (Customer)** — Malaysian culture makes it hard to say no. We want to help everyone. But taking every "Tom, Dick, and Harry" customer destroys your operations.
   
-  2. **Quadrant 2 (High Time, High Income)** — Successful agencies, consultants. Good money but golden handcuffs.
+  2. **Problem 2 (Unit Economics)** — Many Malaysian businesses underprice out of fear. "Impostor syndrome" around pricing. Hormozi's advice: "You're not an impostor — you're broke."
   
-  3. **Quadrant 3 (Low Time, Low Income)** — Part-time hustles, passive income attempts that don't scale.
+  3. **Problem 3 (Over-expansion)** — The "open more branches" trap. I see this constantly — one mediocre outlet, and they want to franchise. You're scaling problems, not solutions.
   
-  4. **Quadrant 4 (Low Time, High Income)** — The goal. Systems, leverage, assets working for you.
+  4. **Problem 4 (Focus)** — Malaysian entrepreneurs love "new opportunities." Every week a new idea. But switching when things get hard means you never break through.
   
-  **The Malaysian trap:** We glorify "hustle" and working 16-hour days. But Hormozi's framework shows that's just Quadrant 1 or 2 — not the endgame.
-  
-  **My recommendation:** If you're in Quadrant 1, your first priority isn't more clients — it's building systems to move to Quadrant 2. Then from Quadrant 2, your priority is leverage (hiring, automation, assets) to reach Quadrant 4.
+  **My recommendation:** Identify which problem you're stuck on RIGHT NOW. Solve that one first. Don't skip ahead.
 ---
 
-![The four types of business](/images/four-business-types-hero.png)
+![The four problems of business growth](/images/four-business-types-hero.png)
 
-## The Framework That Changes Everything
+## The Framework
 
-Alex Hormozi built Gym Launch to $100M+ and now runs Acquisition.com investing in companies. His insight? **Most entrepreneurs are playing the wrong game entirely.**
+Alex Hormozi, who built Gym Launch to $100M+ and now runs Acquisition.com, lays out exactly what's holding most businesses back:
 
-> "You can work really hard and make no money. You can work really hard and make a lot of money. You can work not at all and make no money. Or you can work not at all and make a lot of money. Most people never think about which quadrant they're actually in."
+> "Every business needs to solve each of these four problems in order to make more money and scale."
 
-The difference between struggling business owners and wealthy ones isn't just effort — it's **which type of business they chose.**
+These aren't abstract concepts. They're the exact walls you'll hit at $1M, $3M, and $10M revenue. Each one feels impossible until you solve it.
 
-## The 4 Quadrants Explained
+## Problem 1: The Customer
 
-Think of business on two axes:
-- **Y-axis:** Income (Low to High)
-- **X-axis:** Time invested (High to Low)
+The first sticking point hits around $1-3M revenue. You've been taking every customer who can pay — and that's killing you.
 
-This creates 4 quadrants:
+> "In the beginning you need to sell everyone because you have no money and they have a pulse and a credit card — and you only require one of those things."
 
-![Time versus money tradeoff](/images/time-money-balance.png)
+That's fine at first. But eventually:
 
-### Quadrant 1: High Time, Low Income
-**The Grind Trap**
+> "When you keep taking every single Tom, Dick and Harry who can give you a third down today and 'I'll pay you when I get paid'... you deal with all of these bad customers. You promise the world. You've got a lot of different customers that all have different needs, different promises, at different price points that you've sold — and they're still just you."
 
-This is where most people start and many never leave. You're trading hours for dollars with no leverage.
+**The solution?** Learn to say no.
 
-Examples:
-- Freelancers charging by the hour
-- Service providers doing all the work themselves
-- Small retail with the owner at the counter every day
+> "What you have to do is you have to learn how to say no to people who are not the ideal customer."
 
-**The problem:** There's a ceiling. You only have 24 hours. No matter how good you get, you can't scale past your own capacity.
+Hormozi shares a powerful insight about why this works:
 
-### Quadrant 2: High Time, High Income
-**The Golden Handcuffs**
+> "One of the most attractive things in marketing and sales is saying 'I don't need your money' — because it makes everybody want you more."
 
-You've figured out how to make good money, but you're still essential to the operation.
+**The math:** If 10% of your customers are ideal, and they're 5-10x more profitable — what if 100% were like that?
 
-Examples:
-- Successful consultants billing RM500+/hour
-- Agency owners who close all the deals
-- Doctors, lawyers, specialists
+> "You usually make five to 10 times more money. And the cool part about that process is that it doesn't require more infrastructure — you already have the infrastructure to service that number of customers. You're just servicing the wrong people because you haven't learned to say no yet."
 
-**The problem:** You're rich but not free. Take a month off and watch revenue collapse. You've built a high-paying job, not a business.
+![Customer selection and saying no](/images/time-money-balance.png)
 
-### Quadrant 3: Low Time, Low Income
-**The Passive Income Trap**
+## Problem 2: Unit Economics
 
-This is where "4-hour workweek" dreamers often end up. Low effort, but also low returns.
+You either charge too little, or pay too much.
 
-Examples:
-- Dividend stocks yielding 3-4%
-- A small rental property barely covering mortgage
-- An info product that sells 2 copies a month
+> "You either charge too little or you pay too much. I'm a big believer in hiring great talent. I'm a big believer in bringing good people in. Absolutely. But if you want to have a frozen yogurt store and you want to pay the people behind the counter 20% of revenue each — your business will not make money."
 
-**The problem:** It's not enough to live on. You've optimized for freedom before you've earned the right to it.
+The danger is getting this wrong then trying to "scale" your way out:
 
-### Quadrant 4: Low Time, High Income
-**The Goal**
+> "You have to nail the individual model where you can make enough money at full capacity."
 
-Assets and systems that generate significant income without your daily involvement.
+Many entrepreneurs feel guilty charging more:
 
-Examples:
-- A business with management team running operations
-- Software products with recurring revenue
-- Media/content with massive distribution
-- Investments in cash-flowing businesses
+> "There's all these ethical things like 'I feel like an impostor.' Dude, you're not an impostor — you're broke. You only get impostor syndrome when you pretend to be something you're not."
 
-**The path:** You can't skip here. You typically have to go through Quadrant 1 → 2 → 4.
+Hormozi shares a specific example:
 
-## Why Most People Get Stuck
+> "I had an agency owner yesterday who said 'I got to 150 clients and I have a really good client getting system, but that business stalled because I didn't know how to operate.' He said 'but I feel like an impostor charging for that system.'"
 
-![Leverage and scaling](/images/leverage-scaling.png)
+The solution? Tell the truth.
 
-### Mistake 1: Trying to Skip Quadrants
+> "Why don't you just tell the truth and say 'I got 150 customers despite not knowing anything about running an agency because the system's really good. I suck at operating and so for that reason I'm just going to give you the system.'"
 
-Everyone wants Quadrant 4, but you usually can't jump there directly. The skills you build in Quadrant 1 (execution) and Quadrant 2 (systems + sales) are prerequisites.
+## Problem 3: Over-Expansion
 
-### Mistake 2: Optimizing the Wrong Quadrant
+This is the trap that catches businesses at the $3-10M range:
 
-If you're in Quadrant 1, the goal isn't to work MORE hours. It's to build skills and systems to move to Quadrant 2.
+> "The third problem that every business has to solve is not getting over your skis — not over-expanding."
 
-If you're in Quadrant 2, the goal isn't more clients. It's building leverage (team, automation, assets) to move to Quadrant 4.
+Here's what happens: Problem 2 (unit economics) isn't solved, so you try to compensate with volume:
 
-### Mistake 3: Confusing Passive Income with Quadrant 4
+> "Problem two often leads to problem three — you're not making up in the core business so you say 'great I'll do more of this.' But more in that instance is more of the wrong thing. A little bit isn't working, let's try a lot. You're scaling the problems, not the solution."
 
-Quadrant 4 isn't about "passive income" — it's about **leveraged income**. You might still work, but your input doesn't linearly correlate with output.
+![Scaling and expansion trap](/images/leverage-scaling.png)
 
-## The Path Forward
+Hormozi sees this constantly with brick-and-mortar businesses:
 
-Hormozi's advice is brutally practical:
+> "I can't tell you the number of times I talk to local businesses who have this issue. It's mostly because we have this ego thing around growing revenue."
 
-1. **Know which quadrant you're in** — Be honest.
+One mediocre location, and they want to franchise. The fix is to **perfect the unit before duplicating it.**
 
-2. **Know which quadrant is NEXT** — You can't skip. Q1 → Q2 → Q4.
+## Problem 4: Focus
 
-3. **Build the skills for the next quadrant:**
-   - Q1 → Q2: Sales, hiring, delegation
-   - Q2 → Q4: Systems, management, capital allocation
+The final and most "nefarious" problem:
 
-4. **Accept the time investment** — There's no shortcut. Quadrant 4 is earned, not hacked.
+> "The fourth problem that every business owner has to conquer is focus. And what is so nefarious about focus — it's so sneaky — because we are rewarded as entrepreneurs for taking a leap of faith, for taking a jump when there's nothing there, and then something starts to work."
 
-## The Uncomfortable Truth
+The trap:
 
-> "Everyone wants to be in Quadrant 4, but most people aren't willing to do what it takes to get there. They want passive income before they've built anything worth being passive about."
+> "That's such a rewarding experience. You go from complete control to complete freedom. In that moment you're like 'this was the best decision of my entire life.' And the problem is that you should never do it again."
 
-Building a Quadrant 4 business typically takes 7-10 years of focused effort. Not 7-10 years of dabbling — 7-10 years of intentional progression through the quadrants.
+Why? Because you've trained yourself that switching = success:
+
+> "When this gets hard — like my job was — you then think 'oh I'll do the same thing I did last time. I'll switch. I'll try something new.' And then that'll be exciting and new, just like a your relationship. And then all of a sudden you get out of the honeymoon..."
+
+**The paradox:** The skill that got you started (taking leaps) will destroy you if you keep using it.
+
+## The Hard Conversations
+
+Solving these problems requires uncomfortable discussions. When you need to restructure compensation (Problem 2) or let go of bad customers (Problem 1), Hormozi's approach:
+
+> "I just tell the truth. 'I messed up. I said that I was going to help you guys grow with this business. I said we were going to do these big things. But based on the decisions that I made because I'm a numbnuts, I mispriced your compensation. And because of that I'll never be able to give you career growth.'"
+
+Some people will leave. That's part of the process:
+
+> "And guess what skill you get to develop now? The ability to recruit talent with your new compensation structure, with your new vision of what's going to happen in their lives."
 
 ---
 
 ## Key Takeaways
 
-- **There are 4 types of business** based on time investment vs income
-- **Most entrepreneurs are stuck in Quadrant 1** (high time, low income)
-- **Quadrant 2 is the trap** — good money but golden handcuffs
-- **You can't skip quadrants** — the skills compound
-- **Quadrant 4 (low time, high income) is earned** through 7-10 years of intentional progression
-- **The goal at each stage is to build skills for the NEXT quadrant**
+- **Problem 1 (Customer):** Learn to say no. "One of the most attractive things in sales is saying 'I don't need your money.'"
+- **Problem 2 (Unit Economics):** Charge more or pay less. "You're not an impostor — you're broke."
+- **Problem 3 (Over-expansion):** Don't scale problems. Perfect the unit first.
+- **Problem 4 (Focus):** The skill that got you started will destroy you. Stop switching.
+- **The fix for all of them:** Uncomfortable conversations and telling the truth.
