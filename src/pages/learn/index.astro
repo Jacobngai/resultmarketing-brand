@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPosts = await Astro.glob('./*.md');
+const posts = allPosts.sort((a, b) => 
+  new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+);
+
+// Group by category
+const categories = [...new Set(posts.map(p => p.frontmatter.category))];
+---
+
+<BaseLayout title="Learn" description="Business insights from the world's best minds, adapted for Malaysian SMEs.">
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <!-- Header -->
+      <div class="max-w-2xl mb-20">
+        <h1 class="text-display font-semibold mb-6">Learn</h1>
+        <p class="text-xl text-brand-gray-600 leading-relaxed">
+          We watch, read, and distill insights from top business minds. Then we share how Malaysian SMEs can apply them.
+        </p>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="flex gap-4 mb-12 border-b border-brand-gray-100 pb-4">
+        <button class="px-4 py-2 text-sm font-medium text-brand-black border-b-2 border-brand-black -mb-[18px]">
+          All
+        </button>
+        {categories.map((cat) => (
+          <button class="px-4 py-2 text-sm text-brand-gray-500 hover:text-brand-black transition-colors">
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Posts Grid -->
+      <div class="grid grid-cols-2 gap-x-8 gap-y-16">
+        {posts.map((post) => (
+          <a href={post.url} class="group">
+            <div class="aspect-video bg-brand-gray-100 rounded-2xl mb-6 overflow-hidden">
+              {post.frontmatter.image && (
+                <img src={post.frontmatter.image} alt="" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              )}
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="text-xs font-medium text-brand-blue bg-brand-blue/10 px-2 py-1 rounded">
+                {post.frontmatter.category}
+              </span>
+              <span class="text-sm text-brand-gray-400">{post.frontmatter.date}</span>
+            </div>
+            <h2 class="text-xl font-medium mb-3 group-hover:text-brand-blue transition-colors">
+              {post.frontmatter.title}
+            </h2>
+            <p class="text-brand-gray-600 line-clamp-2">{post.frontmatter.excerpt}</p>
+            <div class="mt-4 text-sm text-brand-gray-500">
+              Source: {post.frontmatter.source}
+            </div>
+          </a>
+        ))}
+      </div>
+
+      {posts.length === 0 && (
+        <div class="text-center py-20 text-brand-gray-500">
+          <p>No posts yet. Check back soon!</p>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

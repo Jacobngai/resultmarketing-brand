@@ -1,0 +1,77 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Business insights for Malaysian SMEs. AI, automation, and growth strategies." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} | Result Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-brand-gray-900 font-sans antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-brand-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-xl font-semibold tracking-tight">
+        Result Marketing
+      </a>
+      <div class="flex items-center gap-8">
+        <a href="/learn" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">Learn</a>
+        <a href="/about" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">About</a>
+        <a href="https://seo.resultmarketing.asia" class="text-sm text-brand-gray-600 hover:text-brand-black transition-colors">SEO Services</a>
+        <a href="https://cal.com/zen-pdcnlc/coffee" class="px-4 py-2 bg-brand-black text-white text-sm rounded-full hover:bg-brand-gray-800 transition-colors">
+          Book a Call
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="pt-20">
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-brand-gray-100 mt-32">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-4 gap-12">
+        <div class="col-span-2">
+          <h3 class="text-lg font-semibold mb-4">Result Marketing</h3>
+          <p class="text-brand-gray-600 text-sm leading-relaxed max-w-md">
+            Business insights and automation strategies for Malaysian SMEs. 
+            We share what we learn from the world's best business minds.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-sm font-medium mb-4">Links</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="/learn" class="hover:text-brand-black transition-colors">Learn</a></li>
+            <li><a href="/about" class="hover:text-brand-black transition-colors">About</a></li>
+            <li><a href="https://seo.resultmarketing.asia" class="hover:text-brand-black transition-colors">SEO Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-medium mb-4">Connect</h4>
+          <ul class="space-y-2 text-sm text-brand-gray-600">
+            <li><a href="https://cal.com/zen-pdcnlc/coffee" class="hover:text-brand-black transition-colors">Book a Call</a></li>
+            <li><a href="mailto:jacob@resultmarketing.asia" class="hover:text-brand-black transition-colors">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-brand-gray-100 mt-12 pt-8 text-center text-sm text-brand-gray-500">
+        © 2026 Result Marketing. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
