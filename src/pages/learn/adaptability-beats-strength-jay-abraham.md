@@ -70,35 +70,6 @@ In *The Origin of Species*, Darwin wrote:
 
 Most people complain about what's changed. But change is nature. **The question isn't whether things will change — it's whether you'll adapt faster than your competition.**
 
-## The Modern Adaptation: AI-Readable Content
-
-Here's where this gets practical for Malaysian businesses.
-
-Most marketing agencies are focusing on video. TikTok, YouTube, Instagram Reels. It feels "modern."
-
-But here's what they're missing: **AI cannot read video.**
-
-- YouTube: AI can't scrape without permission
-- TikTok: Completely walled garden
-- Instagram: Zero API access for content
-- Facebook: Locked down
-
-These platforms are not giving AI permission to download and transcribe everything.
-
-**But your website?**
-- Perplexity scrapes it ✓
-- ChatGPT browses it ✓
-- Claude reads it ✓
-- Google still indexes it ✓
-
-Video creators are building assets that AI *cannot access*. Website owners are building assets that AI *must access* to answer questions.
-
-The pitch writes itself:
-
-> "Your competitors are making TikToks that AI will never see. We're making content that AI recommends when your customer asks a question."
-
-That's not just SEO. That's **AIEO** — AI Engine Optimization. And it's the adaptation advantage hiding in plain sight.
-
 ## The Pattern
 
 Jay Abraham's lawyer couldn't win at golf. She won by becoming the recommended expert for a specific community.
@@ -123,15 +94,27 @@ Stay nimble. Keep building. 🦎
 
 ---
 
-## Want AI to Recommend Your Business?
+## This Is Why We Created Result Marketing
 
-At **Result Marketing**, we don't chase trends. We build AI-readable content that positions your business where AI is looking.
+大巧若拙 — *"Great skill appears clumsy."*
 
-While your competitors make TikToks that AI will never see, we're creating the content that ChatGPT, Perplexity, and Claude recommend when your customers ask questions.
+Most marketing agencies chase what looks impressive. TikTok videos, viral reels, flashy production. It feels "modern."
 
-**That's AIEO** — AI Engine Optimization. The adaptation advantage for Malaysian businesses.
+But here's what they're missing: **AI cannot read video.** YouTube, TikTok, Instagram — they're all walled gardens. AI has no permission to scrape them.
 
-[Book a free consultation →](https://cal.com/zen-pdcnlc/coffee)
+Your website? Perplexity scrapes it. ChatGPT browses it. Claude reads it.
+
+While others burn money looking cool, we build content that AI actually recommends. It doesn't look sexy. It just works.
+
+**[See our SEO services →](https://seo.resultmarketing.asia)**
+
+---
+
+## Ready to Adapt?
+
+Book a free consultation to see if AIEO — AI Engine Optimization — is the right adaptation for your business.
+
+[Book a call →](https://cal.com/zen-pdcnlc/coffee)
 
 ---
 
